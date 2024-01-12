@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chosing Study Group</title>
+    <script>
+        window.onload = function() {
+            // List of websites
+            var websites = ['https://forms.gle/7Lxx1FCVPgPGrYQs8', 'https://forms.gle/nu8NCrxruSuXejCbA'];
+            
+            // Select a random website
+            var randomWebsite = websites[Math.floor(Math.random() * websites.length)];
+            
+            // Redirect to the website
+            window.location.href = randomWebsite;
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
